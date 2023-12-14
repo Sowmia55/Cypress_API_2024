@@ -1,0 +1,23 @@
+{
+  "name": "cypress_api_2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sowmia55/Cypress_API_2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sowmia55/Cypress_API_2024/issues"
+  },
+  "homepage": "https://github.com/Sowmia55/Cypress_API_2024#readme",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
