@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/Sowmia55/Cypress_API_2024#readme",
   "dependencies": {
-    "typescript": "^5.3.3"
+    "-": "^0.0.1",
+    "install": "^0.13.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6"
   }
 }
