@@ -38,7 +38,7 @@ describe('API Test', () => {
  
        
   it('Retriving order - Making a request with headers and cookies', () => {
-    cy.request({
+      cy.request({
       method: 'GET',
       url: 'https://simple-books-api.glitch.me/orders/',
       headers: {
