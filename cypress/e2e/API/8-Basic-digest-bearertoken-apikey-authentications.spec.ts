@@ -32,7 +32,7 @@ describe('Basic & Digest Authentications Test', () => {
     }) // it block closed
 
 
-    const valid_token='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';
+    const valid_token='code_practice';
     const Invalid_token='xyz';
 
     it('Bearer Token Authentication', () => {
@@ -55,7 +55,7 @@ describe('Basic & Digest Authentications Test', () => {
         url: 'api.openweathermap.org/data/2.5/forecast/daily?q=Delhi',
         qs:{
           q:'Delhi',
-          appid:'fe9c5cddb7e01d747b4611c3fc9eaf2c' //API Key & value
+          appid:'code_practice' //API Key & value
             }
         }).then((response) => {
         expect(response.status).to.eq(200)

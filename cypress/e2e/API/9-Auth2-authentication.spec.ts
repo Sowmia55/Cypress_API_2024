@@ -26,8 +26,8 @@ describe("OAuth2",()=>{
                url: 'https://github.com/login/oauth/access_token',
                qs: {
                 client_id: 'ded8c34b1cbcdcaf7149',
-                client_secret: '1c10f2559255c03d07bf97c8567eae2e913cccda',
-                code: '8d3e8caac86fad208f2c'
+                client_secret: 'code_practice',
+                code: 'code_practice'
                }
            })
        .then((response) => {
