@@ -15,3 +15,6 @@ npm install ajv
 to validate XML
 we need to install library to convert XML to js
 npm install xml2js
+
+npm install inversify
+npm install reflect-metadata
