@@ -11,5 +11,4 @@ describe('Validate get posts api response', ()=>{
     it('verification', ()=>{
         getPostsAPIUtil.validateJsonplaceholderGetPostsAPIResponse(testData);
     })
-
 })

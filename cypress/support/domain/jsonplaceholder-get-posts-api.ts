@@ -10,10 +10,12 @@ validateJsonplaceholderGetPostsAPIResponse(data: GetPostsAPIData):void{
     this.getPostAPI(data).then((response) =>{
         expect (response.isOkStatusCode);
         expect (response.body.id).to.equal(1, 'id');
+        expect (response.body.id).to.eq(1, 'id');
+        expect (response.body.id).to.deep.eq(1, 'id');
     })
 }
 
 getPostAPI(data: GetPostsAPIData): Cypress.Chainable<Cypress.Response<GetPostsAPIResponse>>{
-    return cy.request('GET', 'https://jsonplaceholder.typicode.com/posts/1')
+    return cy.request('GET', `https://jsonplaceholder.typicode.com/posts/${data.limit}`)
 }
 }
